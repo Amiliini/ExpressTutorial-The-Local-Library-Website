@@ -1,0 +1,44 @@
+.sidebar-nav {
+  margin-top: 20px;
+  padding: 0;
+  list-style: none;
+  color: red !important;
+}
+
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(43, 200, 232, 0.9140698515734419) 0%,
+    rgba(253, 29, 234, 0.7347981428899685) 97%
+  );
+}
+a {
+  color: yellow;
+}
+
+#happy {
+  color: #1f867c;
+  animation-name: testi;
+  animation-duration: 2s;
+  animation-delay: 2s;
+  animation-iteration-count: 2;
+}
+@keyframes testi {
+  0% {
+    color: #1f867c;
+  }
+  25% {
+    color: orange;
+  }
+  50% {
+    color: orangered;
+    font-size: 200%;
+  }
+  75% {
+    color: orange;
+  }
+  100% {
+    color: darkcyan;
+    font-size: 100%;
+  }
+}
